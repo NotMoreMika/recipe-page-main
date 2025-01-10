@@ -28,7 +28,7 @@ The challenge is to build a recipe page and make it look as close to the design 
 ### Links
 
 - Solution URL: [Recipe Page Main](https://github.com/NotMoreMika/recipe-page-main.git)
-- Live Site URL: [Recipe Page Main](https://your-live-site-url.com)
+- Live Site URL: [Recipe Page Main](https://github.com/NotMoreMika/recipe-page-main/deployments/github-pages)
 
 ## My process
 
