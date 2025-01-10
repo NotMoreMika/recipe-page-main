@@ -27,8 +27,13 @@ The challenge is to build a recipe page and make it look as close to the design 
 
 ### Links
 
+<<<<<<< HEAD
 - Solution URL: [Recipe Page Main](https://github.com/NotMoreMika/recipe-page-main.git)
 - Live Site URL: [Recipe Page Main](https://your-live-site-url.com)
+=======
+- Solution URL: [Add solution URL here](https://github.com/NotMoreMika/recipe-page-main.git)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+>>>>>>> acd18a80c9f9e15fbf3f1be20efea31fa4667d05
 
 ## My process
 
@@ -55,6 +60,11 @@ Continuously refining my responsive design skills to provide a seamless experien
 
 ## Author
 
+<<<<<<< HEAD
 - X - [Mika](https://www.x.com/notmore_mika)
 - Frontend Mentor - [NotNoreMika](https://www.frontendmentor.io/profile/notmoremika)
+=======
+- X - [@yourusername](https://www.x.com/notmore_mika)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/notmoremika)
+>>>>>>> acd18a80c9f9e15fbf3f1be20efea31fa4667d05
 
