@@ -1,0 +1,151 @@
+/* ***** Reset ***** */
+@font-face {
+  font-family: outfit;
+  src: url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: young-serif;
+  src: url("../assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+:root {
+  --bgc-primary: hsl(330, 100%, 97%);
+  --bgc-secondary: hsl(0, 0%, 100%);
+
+  --color-tittle-secondary: hsl(332, 51%, 32%);
+  --color-tittle-primary: hsl(14, 45%, 36%);
+
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  background-color: var(--bgc-primary);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* ***** General Style***** */
+.bold {
+  font-weight: 600;
+}
+
+.border {
+  border-radius: 1rem;
+}
+
+.color-tittle {
+  color: var(--color-tittle-primary);
+}
+
+.font-tittle {
+  font-family: young-serif, sans-serif;
+  font-weight: 300;
+}
+
+.list {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.margin-spacing {
+  margin: 2rem 0 0;
+}
+
+li,
+p,
+table,
+.preparation-time h2 {
+  font-family: outfit, sans-serif;
+}
+
+/* ***** Site Style ***** */
+.recipe-card {
+  width: 60%;
+  margin: 10vh auto;
+  padding: 2rem;
+  background-color: var(--bgc-secondary);
+}
+
+.recipe-tittle {
+  font-size: 2.5rem;
+}
+
+.preparation-time {
+  background-color: var(--bgc-primary);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.preparation-time h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: var(--color-tittle-secondary);
+}
+
+.instruction-list {
+  list-style-position: outside;
+  margin-left: 1rem;
+}
+
+.nutrition-table {
+  width: 100%;
+  margin-top: 1rem;
+  border-collapse: collapse;
+}
+
+.nutrition-table td {
+  padding: 0.5rem;
+}
+
+.nutrition-table td:nth-child(even) {
+  color: var(--color-tittle-secondary);
+  font-weight: 700;
+}
+
+.nutrition-table tr {
+  border-bottom: 1px solid var(--stone-150);
+}
+
+.nutrition-table tr:last-child {
+  border-bottom: none;
+}
+
+/* ***** Responsive Design - device smartphone(375px) ***** */
+@media (max-width: 375px) {
+  .border {
+    border-radius: 0;
+  }
+
+  .recipe-card {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  .recipe-img {
+    margin: 0;
+  }
+
+  .recipe-title {
+    font-size: 2rem;
+  }
+
+  .margin-spacing {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
